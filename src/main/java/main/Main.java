@@ -24,8 +24,6 @@ public class Main {
 	        opcion = sc.nextInt();
 	        
 	        switch (opcion) {
-	            // Otras opciones...
-
 	            case 1:
 	                System.out.println("Procesando cuentas del archivo JSON...");
 	                controller.processAccountsFromJSON(folderPath + "/cuentasExamen.json");
